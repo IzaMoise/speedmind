@@ -1,0 +1,23 @@
+{
+	"project" : "speedmind",
+	"datasets" : [
+		{ "name" : "ECMWF",
+		"dataset" : "interim",
+		"levtype" : "sfc",
+		"step" : "0",
+		"grid" : "0.75/0.75",
+		"time": "00/06/12/18",
+		"date" : "2014-07-01/to/2014-07-31",
+		"type" : "an",
+		"class" : "ei",
+		"target" : "interim_2014-07-01to2014-07-31_00061218.grib",
+		"download" : "batch",
+		"resolution" : "30",
+		"scale" : "m",
+		"format" : "geotiff",
+		"variable" : "cloud_coverage",
+		"sampling" : "1",
+		"start_date" : ""
+		}
+	]
+}	
